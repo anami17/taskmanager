@@ -1,7 +1,7 @@
 <x-app-layout>
 <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('Edit Your Task') }}
         </h2>
     </x-slot>
 <div class="container mt-5">
@@ -9,7 +9,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card header">
-                    <h4>User App
+                    <h4>Edit Task
                         <a href="/dashboard" class="btn btn-danger float-end">BACK</a>
                     </h4>  
                 </div>
